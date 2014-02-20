@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url('./fonts/proximanova-regular-webfont.eot');
+    src: url('./fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/proximanova-regular-webfont.woff') format('woff'),
+         url('./fonts/proximanova-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 html,
 button,
 input,
@@ -11,7 +22,8 @@ html {
     line-height: 1.4;
 }
 
-body { background:#f4f4f5; color:#333333; font-family: Proxima Nova; }
+body { background:#f4f4f5; color:#333333; font-family: 'proxima_nova_rgregular';
+ }
 
 ::-moz-selection {
     background: #b3d4fc;
@@ -84,7 +96,8 @@ nav.top { float:right; }
 
 .headline-block {
     color: #FFFFFF;
-    font-family: Proxima Nova;
+    font-family: 'proxima_nova_rgregular';
+
     font-size: 24px;
     font-weight: 100;
     margin: auto auto 170px;
@@ -92,7 +105,8 @@ nav.top { float:right; }
     width: 67%;
 }
 .headline {
-    font-family: Proxima Nova;
+    font-family: 'proxima_nova_rgregular';
+
     font-size: 55px;
     font-weight: 100;
     line-height: 58px;
@@ -129,9 +143,10 @@ border-radius: 0 0 5px 5px;
 
 #startbtn { margin:50px 0 0; }
 
-.vogit { margin:15px 0 0; font-family:open sans; font-weight:bold; }
+.vogit { margin:15px 0 0; font-family: 'Open Sans', sans-serif; font-weight:bold; }
 
-h3.lfm { font-family: Proxima Nova; font-size:24px; font-weight:normal; }
+h3.lfm { font-family: 'proxima_nova_rgregular';
+ font-size:24px; font-weight:normal; }
 
 footer { text-align:center; color:#a7a9ac; margin:0 0 50px; font-size:16px; }
 footer span.silival { color:#bcbec0;  }
